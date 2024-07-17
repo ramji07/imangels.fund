@@ -15,17 +15,34 @@
 
   }
   body{
-    margin: 0;
-    padding: 0;
+    margin: 0!important;
+    padding: 0!important;
   }
   .circle-image {
           height: 277px!important;
           width:  302px!important;
     }
+    .hero-spacing {
+        min-height: 400px !important;
+        padding-top: 4.4rem !important;
+    }
   
 }
 
-
+/* .img-fluid {
+    max-width: 126px!important;
+    height: 75px!important;
+} */
+ .alignitems{
+  --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-0.5* var(--bs-gutter-x));
+    margin-left: calc(-0.5* var(--bs-gutter-x));
+    justify-content: space-around;
+ }
 .overlay {
   position: absolute;
   top: 0;
